@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Difference between Window and Document Objects</title>
+</head>
+<body>
+  <div style="max-width: 800px; margin: 50px auto; padding: 30px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+    <h1 style="font-size: 28px; color: #333; margin-bottom: 20px;">Difference between Window and Document Objects</h1>
+    <div style="margin-bottom: 40px;">
+      <h2 style="font-size: 22px; color: #007bff; margin-bottom: 10px;">Window Object:</h2>
+      <ul style="list-style-type: none; padding: 0;">
+        <li><span style="font-weight: bold; margin-right: 5px;">1.</span> Window object is at the top level of the JavaScript object hierarchy. It is a global object in JavaScript and it is the root object of the DOM (Document Object Model).</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">2.</span> It represents the browser window in which you are viewing the webpage.</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">3.</span> Properties related to the window are stored in this object.</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">4.</span> It is loaded before the document because it contains the document.</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">5.</span> You can access document object properties inside the window.</li>
+      </ul>
+    </div>
+    <div style="margin-bottom: 40px;">
+      <h2 style="font-size: 22px; color: #007bff; margin-bottom: 10px;">Document Object:</h2>
+      <ul style="list-style-type: none; padding: 0;">
+        <li><span style="font-weight: bold; margin-right: 5px;">1.</span> The document object lies inside the window object, and we use it for manipulation within the document.</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">2.</span> It represents the document loaded inside the window or browser.</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">3.</span> Properties related to the document are stored in the document object.</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">4.</span> It is loaded after the window because the window contains the document.</li>
+        <li><span style="font-weight: bold; margin-right: 5px;">5.</span> You cannot access window object properties in a document.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
